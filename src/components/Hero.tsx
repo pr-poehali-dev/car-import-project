@@ -3,13 +3,13 @@ import Icon from "@/components/ui/icon";
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-br from-[#1A1F2C] to-[#0EA5E9]/20 py-20 px-6">
+    <section className="bg-gradient-to-br from-[#0F0F0F] via-[#22C55E]/10 to-[#6B7280]/20 py-20 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-white">
             <h1 className="text-5xl font-bold font-montserrat mb-6 leading-tight">
               Автомобили из Кореи
-              <span className="block text-[#0EA5E9]">прямо от дилеров</span>
+              <span className="block text-[#F59E0B]">прямо от дилеров</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 font-open-sans">
               Работаем только с официальными дилерами и проверенными аукционами.
@@ -19,7 +19,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button
                 size="lg"
-                className="bg-[#0EA5E9] hover:bg-[#0EA5E9]/80 text-lg px-8"
+                className="bg-[#22C55E] hover:bg-[#22C55E]/80 text-lg px-8 text-white"
               >
                 <Icon name="Search" size={20} className="mr-2" />
                 Подобрать авто
@@ -27,7 +27,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-[#1A1F2C] text-lg px-8"
+                className="border-[#F59E0B] text-[#F59E0B] hover:bg-[#F59E0B] hover:text-black text-lg px-8"
               >
                 <Icon name="Calculator" size={20} className="mr-2" />
                 Рассчитать стоимость
@@ -36,17 +36,17 @@ const Hero = () => {
 
             <div className="grid grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#0EA5E9] mb-2">
+                <div className="text-3xl font-bold text-[#F59E0B] mb-2">
                   500+
                 </div>
                 <div className="text-sm text-gray-400">Довольных клиентов</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#0EA5E9] mb-2">15</div>
+                <div className="text-3xl font-bold text-[#F59E0B] mb-2">15</div>
                 <div className="text-sm text-gray-400">Лет опыта</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#0EA5E9] mb-2">
+                <div className="text-3xl font-bold text-[#F59E0B] mb-2">
                   24/7
                 </div>
                 <div className="text-sm text-gray-400">Поддержка</div>
@@ -76,7 +76,7 @@ const Hero = () => {
                     От 1 500 000 ₽
                   </div>
                 </div>
-                <Button className="w-full bg-[#0EA5E9] hover:bg-[#0EA5E9]/80">
+                <Button className="w-full bg-[#22C55E] hover:bg-[#22C55E]/80">
                   Получить предложения
                 </Button>
               </div>

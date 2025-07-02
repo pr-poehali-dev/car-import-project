@@ -46,10 +46,10 @@ const Services = () => {
     <section id="services" className="py-20 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#1A1F2C] mb-4">
+          <h2 className="text-4xl font-bold text-[#0F0F0F] mb-4">
             Наши услуги
           </h2>
-          <p className="text-xl text-[#8E9196] max-w-2xl mx-auto">
+          <p className="text-xl text-[#6B7280] max-w-2xl mx-auto">
             Полный цикл услуг от выбора автомобиля до получения ключей в России
           </p>
         </div>
@@ -61,25 +61,25 @@ const Services = () => {
               className="text-center hover:shadow-lg transition-shadow duration-300 border-0 bg-gray-50"
             >
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-[#0EA5E9] rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-16 h-16 bg-[#22C55E] rounded-full flex items-center justify-center mx-auto mb-6">
                   <Icon name={service.icon} size={32} className="text-white" />
                 </div>
 
-                <h3 className="text-xl font-bold text-[#1A1F2C] mb-4">
+                <h3 className="text-xl font-bold text-[#0F0F0F] mb-4">
                   {service.title}
                 </h3>
-                <p className="text-[#8E9196] mb-6">{service.description}</p>
+                <p className="text-[#6B7280] mb-6">{service.description}</p>
 
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
                     <li
                       key={idx}
-                      className="flex items-center text-sm text-[#8E9196]"
+                      className="flex items-center text-sm text-[#6B7280]"
                     >
                       <Icon
                         name="Check"
                         size={16}
-                        className="text-[#0EA5E9] mr-2"
+                        className="text-[#22C55E] mr-2"
                       />
                       {feature}
                     </li>
@@ -90,7 +90,7 @@ const Services = () => {
           ))}
         </div>
 
-        <div className="mt-16 bg-gradient-to-r from-[#1A1F2C] to-[#0EA5E9] rounded-2xl p-8 text-white text-center">
+        <div className="mt-16 bg-gradient-to-r from-[#0F0F0F] to-[#F59E0B] rounded-2xl p-8 text-white text-center">
           <h3 className="text-2xl font-bold mb-4">Полная стоимость под ключ</h3>
           <p className="text-lg mb-6 opacity-90">
             Никаких скрытых платежей. Цена включает все услуги по растаможке и

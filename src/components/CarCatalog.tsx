@@ -47,10 +47,10 @@ const CarCatalog = () => {
     <section id="catalog" className="py-20 px-6 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#1A1F2C] mb-4">
+          <h2 className="text-4xl font-bold text-[#0F0F0F] mb-4">
             Актуальные предложения
           </h2>
-          <p className="text-xl text-[#8E9196] max-w-2xl mx-auto">
+          <p className="text-xl text-[#6B7280] max-w-2xl mx-auto">
             Автомобили от официальных дилеров и проверенных аукционов Кореи
           </p>
         </div>
@@ -82,10 +82,10 @@ const CarCatalog = () => {
 
               <CardContent className="p-6">
                 <div className="mb-4">
-                  <h3 className="text-xl font-bold text-[#1A1F2C] mb-1">
+                  <h3 className="text-xl font-bold text-[#0F0F0F] mb-1">
                     {car.brand} {car.model}
                   </h3>
-                  <p className="text-[#8E9196]">{car.year} год</p>
+                  <p className="text-[#6B7280]">{car.year} год</p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4 mb-6 text-sm">
@@ -93,7 +93,7 @@ const CarCatalog = () => {
                     <Icon
                       name="Fuel"
                       size={16}
-                      className="mr-2 text-[#0EA5E9]"
+                      className="mr-2 text-[#22C55E]"
                     />
                     {car.fuel}
                   </div>
@@ -101,7 +101,7 @@ const CarCatalog = () => {
                     <Icon
                       name="Settings"
                       size={16}
-                      className="mr-2 text-[#0EA5E9]"
+                      className="mr-2 text-[#22C55E]"
                     />
                     {car.transmission}
                   </div>
@@ -109,7 +109,7 @@ const CarCatalog = () => {
                     <Icon
                       name="Gauge"
                       size={16}
-                      className="mr-2 text-[#0EA5E9]"
+                      className="mr-2 text-[#22C55E]"
                     />
                     {car.mileage} км
                   </div>
@@ -117,7 +117,7 @@ const CarCatalog = () => {
                     <Icon
                       name="Calendar"
                       size={16}
-                      className="mr-2 text-[#0EA5E9]"
+                      className="mr-2 text-[#22C55E]"
                     />
                     {car.year}
                   </div>
@@ -125,12 +125,12 @@ const CarCatalog = () => {
 
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="text-2xl font-bold text-[#1A1F2C]">
+                    <span className="text-2xl font-bold text-[#0F0F0F]">
                       {car.price} ₽
                     </span>
-                    <p className="text-sm text-[#8E9196]">под ключ в России</p>
+                    <p className="text-sm text-[#6B7280]">под ключ в России</p>
                   </div>
-                  <Button className="bg-[#0EA5E9] hover:bg-[#0EA5E9]/80">
+                  <Button className="bg-[#F97316] hover:bg-[#F97316]/80 text-white">
                     Подробнее
                   </Button>
                 </div>
@@ -143,7 +143,7 @@ const CarCatalog = () => {
           <Button
             size="lg"
             variant="outline"
-            className="border-[#0EA5E9] text-[#0EA5E9] hover:bg-[#0EA5E9] hover:text-white"
+            className="border-[#F59E0B] text-[#F59E0B] hover:bg-[#F59E0B] hover:text-black"
           >
             <Icon name="Plus" size={20} className="mr-2" />
             Показать все автомобили
