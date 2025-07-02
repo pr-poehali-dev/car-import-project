@@ -7,7 +7,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <Icon name="Car" size={28} className="text-[#0EA5E9]" />
-          <h1 className="text-2xl font-bold font-montserrat">KoreaAuto</h1>
+          <h1 className="text-2xl font-bold font-montserrat">K-Auto96</h1>
         </div>
 
         <nav className="hidden md:flex items-center space-x-8">
